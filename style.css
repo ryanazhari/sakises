@@ -1,0 +1,119 @@
+/* Utilities */
+.inner-web {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@font-face {
+    font-family: 'lr';
+    src: url('lr.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'lb';
+    src: url('lb.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'll';
+    src: url('ll.ttf') format('truetype');
+}
+/* End Utilities */
+/* Navbar */
+.navbar .nav-link {
+    margin: 0 20px;
+    font-family: 'lr', sans-serif;
+    color: #707070;
+    transition: .2s ease-in;
+    font-size: 18px;
+}
+.navbar .nav-link:hover {
+    color: rgb(2, 94, 97);
+}
+/* End Navbar */
+/* Content */
+section.content h1 {
+    color: #525561;
+    margin-top: 50px;
+    font-size: 62px;
+    font-family: 'lb', sans-serif;
+}
+section.content p {
+    font-family: 'll', sans-serif;
+    color: #525561;
+    opacity: .8;
+    font-size: 18px;
+    letter-spacing: .5px;
+    line-height: 24px;
+}
+section.content span {
+    color: #525561;
+    font-family: 'lr', sans-serif;
+    font-size: 20px;
+    letter-spacing: .5px;
+}
+section.content input {
+    margin-top: 20px;
+    font-family: 'll', sans-serif;
+}
+section.content button {
+    width: 120px;
+    background-color: #1C8B8E;
+    color: #FFF;
+    font-family: 'lb', sans-serif;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: .3s ease-in;
+    border: none;
+    border-radius: 4px;
+    height: 34px;
+}
+section.content button:hover {
+    background-color: rgb(2, 94, 97);
+}
+section.content .sosmed {
+    margin-top: 40px;
+}
+section.content .sosmed img {
+    width: 42px;
+    transition: .3s ease-in;
+    margin: 0 10px;
+}
+section.content .sosmed img:hover {
+    width: 46px;
+}
+img.banner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 48%;
+}
+/* End Content */
+/* Responsive */
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .inner-web {
+        width: 90%;
+    }
+    section.content h1 {
+        font-size: 42px;
+    }
+    section.content p {
+        font-size: 16px;
+    }
+    img.banner {
+        width: 56%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1080px) {
+    .inner-web {
+        width: 90%;
+    }
+    section.content h1 {
+        font-size: 56px;
+    }
+    section.content p {
+        font-size: 18px;
+    }
+    img.banner {
+        width: 50%;
+    }
+}
+
